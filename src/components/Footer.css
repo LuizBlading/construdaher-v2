@@ -1,0 +1,38 @@
+.dados-empresa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+
+    background-color: var(--void-color);
+    color: #fff;
+
+    position: fixed;
+    bottom: 0;
+}
+
+.dados-empresa .endereco {
+    display: flex;
+    flex-direction: column;
+}
+
+.dados-empresa .midias {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    /* justify-content: center; */
+    /* position: relative; */
+}
+
+.dados-empresa .midias svg {
+    width: 2rem;
+    height: 2rem;
+    color: #fff;
+}
+
+.dados-empresa .midias svg:hover {
+    filter: brightness(0.9);
+}
+

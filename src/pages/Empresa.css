@@ -1,0 +1,33 @@
+h1 {
+    color: var(--void-color);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+hr {
+    margin: 2rem;
+    color: var(--void-color)
+}
+
+p {
+    color: var(--void-color);
+    font-size: 1.2rem;
+}
+
+.about, .lema {
+    margin: 1rem;
+    padding: 1rem;
+    color: var(--void-color);
+}
+
+.lema {
+    text-align: center;
+}
+
+.lema p {
+    margin-top: 1rem;
+}
+
+.lema #homeImage {
+    margin: 2rem;
+}

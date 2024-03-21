@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  /* --screen-gray: #c5c1c0;
+  --steel-dark-gray: #0a1612;
+  --denim-dark-light-gray: #1a2930;
+  --marigold-yallow: #e7ce3e; */
+  --void-color: #0e0b16;
+  --fuschia-color: #a239ca;
+  --jewel-color: #4717f6;
+  --start-color: #e7dfdd;
+  --screen-gray: #c5c1c0;
+  --screen-gray-light: #f9f8f8;
+}
+
+body {
+  font: 400 1rem Roboto, sans-serif;
+  background-color: var(--screen-gray-light);
+}

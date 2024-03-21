@@ -1,0 +1,32 @@
+.header {
+    /* background-color: #121214; */
+    background-color: var(--void-color);
+
+    padding: 1rem 1.25rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.header .logo {
+    width: 3rem;
+    height: 3rem;
+}
+
+.main-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-navigation a {
+    margin: 1rem;
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.main-navigation a:hover {
+    filter: brightness(0.9);
+}
