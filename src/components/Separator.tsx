@@ -1,7 +1,11 @@
 import './Separator.css'
 
-export function Separator() {
+interface SeparatorProps {
+    color: string
+}
+
+export function Separator(props: SeparatorProps) {
     return(
-        <div className="separator"></div>
+        <div className={props.color}></div>
     )
 }

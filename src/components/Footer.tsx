@@ -10,7 +10,7 @@ export function Footer() {
                 <span>R. Clarence, 335 | Vila Cruzeiro | São Paulo - SP | Tel. 11 5642-3390 | construdahersp@construdaher.com.br</span>
             </div>
 
-            <Separator />
+            <Separator color='separator-v-white'/>
 
             <div className="midias">
                 <b><i>Acesse nosso Facebook:</i></b>

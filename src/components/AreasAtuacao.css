@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+    margin-top: -125px;
+}
+
+.container {
+    background-color: var(--jewel-color);
+    border-radius: 20px;
+    padding: 1.5em 3em;
+    margin: auto 2em;
+    float: left;
+    max-width: 1000px;
+    display: flex;
+    flex-flow: row wrap;
+}

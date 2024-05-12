@@ -5,10 +5,6 @@
 }
 
 :root {
-  /* --screen-gray: #c5c1c0;
-  --steel-dark-gray: #0a1612;
-  --denim-dark-light-gray: #1a2930;
-  --marigold-yallow: #e7ce3e; */
   --void-color: #0e0b16;
   --fuschia-color: #a239ca;
   --jewel-color: #4717f6;
@@ -20,4 +16,5 @@
 body {
   font: 400 1rem Roboto, sans-serif;
   background-color: var(--screen-gray-light);
+  color: var(--void-color);
 }

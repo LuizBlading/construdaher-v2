@@ -1,5 +1,10 @@
-.separator {
+.separator-v-white {
     background-color: #fff;
     height: 2rem;
     width: 0.1rem;
+}
+
+.separator-h-void {
+    background-color: var(--void-color);
+    height: 0.1rem;
 }
